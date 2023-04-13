@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <main>
+      <div class="user-card">
+        <div class="person">
+          <img
+            class="user-picture"
+            src="images/image-jeremy.png"
+            alt="Jeremy"
+          />
+          <div class="person-text">
+            <span class="report-for">Report for</span>
+            <h1>Jeremy Robson</h1>
+          </div>
+        </div>
+        <div class="time">
+          <span id="daily">Daily</span>
+          <span active-tab="true" id="weekly">Weekly</span>
+          <span id="monthly">Monthly</span>
+        </div>
+      </div>
+      <div class="background work">
+        <div class="time-card">
+          <div class="time-card-title">
+            <h2>Work</h2>
+            <img src="images/icon-ellipsis.svg" />
+          </div>
+          <div class="time-log">
+            <span class="hours" id="work-hour">32hrs</span>
+            <p id="work-last">Last Week - 36hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="background play">
+        <div class="time-card">
+          <div class="time-card-title">
+            <h2>Play</h2>
+            <img src="images/icon-ellipsis.svg" />
+          </div>
+          <div class="time-log" id="play-time">
+            <span class="hours" id="play-hour">10hrs</span>
+            <p class="last" id="play-last">Last Week - 8hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="background study">
+        <div class="time-card">
+          <div class="time-card-title">
+            <h2>Study</h2>
+            <img src="images/icon-ellipsis.svg" />
+          </div>
+          <div class="time-log" id="study-time">
+            <span class="hours" id="study-hour">4hrs</span>
+            <p id="study-last">Last Week - 7hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="background exercise">
+        <div class="time-card">
+          <div class="time-card-title">
+            <h2>Exercise</h2>
+            <img src="images/icon-ellipsis.svg" />
+          </div>
+          <div class="time-log" id="exercise-time">
+            <span class="hours" id="exercise-hour">4hrs</span>
+            <p id="exercise-last">Last Week - 5hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="background social">
+        <div class="time-card">
+          <div class="time-card-title">
+            <h2>Social</h2>
+            <img src="images/icon-ellipsis.svg" />
+          </div>
+          <div class="time-log" id="social-time">
+            <span class="hours" id="social-hour">5hrs</span>
+            <p id="social-last">Last Week - 10hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="background self-care">
+        <div class="time-card">
+          <div class="time-card-title">
+            <h2>Self Care</h2>
+            <img src="images/icon-ellipsis.svg" />
+          </div>
+          <div class="time-log" id="self-care-time">
+            <span class="hours" id="self-care-hour">2hrs</span>
+            <p id="self-care-last">Last Week - 2hrs</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
